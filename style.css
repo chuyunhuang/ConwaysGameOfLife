@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  /* background-color: aqua; */
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+.content{
+  max-width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.main-header{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-content{
+  max-width: 500px;
+  margin:auto;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.source {
+  text-align: center;
+  text-decoration: none;
+}

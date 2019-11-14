@@ -2,8 +2,8 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
 const resolution = 10;
-canvas.width = 800;
-canvas.height = 800;
+canvas.width = 500;
+canvas.height = 500;
 
 const COLS = canvas.width / resolution;
 const ROWS = canvas.height / resolution;

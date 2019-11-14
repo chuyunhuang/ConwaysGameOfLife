@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Conway's Game of Life</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic&display=swap" rel="stylesheet">
+  <title>Conway's Game of Life</title>
+</head>
+
+<body>
+  <div class="content">
+    <header class="main-header">Conway's Game of Life</header>
     <canvas></canvas>
-    <script src="./js/main.js"></script>
-  </body>
+  </div>
+  <div class="sub-content">
+    <ol>
+      <li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+      <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+      <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+      <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+    </ol>
+    <div class="source"><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank"
+        style="text-decoration:none;"><em>Source-Wikipedia<em></em></a></div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
